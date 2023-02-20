@@ -8,7 +8,7 @@ function App() {
       <button onClick={() => setCount(count - 1)} className="App__button">
         -
       </button>
-      <h1 className="App__title">{count}</h1>
+      <h1 className="App__title text-3xl font-bold underline">{count}</h1>
       <button onClick={() => setCount(count + 1)} className="App__button">
         +
       </button>
