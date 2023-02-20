@@ -1,0 +1,29 @@
+.App {
+  &__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vmax;
+    color: #ccc;
+  }
+
+  &__title {
+    font-size: 36px;
+    text-align: center;
+    min-width: 100px;
+  }
+  
+  &__button {
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 2px solid #ccc;
+    font-size: 32px;
+    border-radius: 12px;
+    color: #ccc;
+  }
+  
+  &__button:hover {
+    background-color: #ccc;
+    color: #5fdada;
+  }
+}
